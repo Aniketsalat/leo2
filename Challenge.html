@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function leoo(){
+            var x=10;
+            var var1=document.f1.var1.value;
+            var count=10;
+            while (count !=0) {
+                if (var1==x) {
+                    alert("You are correct");
+                    break;
+                }
+                else
+                {
+                    alert(" Guess again");
+                    break;
+                }
+            }
+            count--;
+        }
+    </script>
+    <form name="f1">
+        Enter the number: <input type="number" name="var1">
+        <br><br>
+        <input type="submit" value="submit" onclick="leoo()">
+    </form>
+</body>
+</html>
